@@ -7,7 +7,7 @@ class Sms4India():
         self.apiKey = ''
         self.secretKey = ''
 
-    def sendPostRequest(self, phoneNo: str, textMessage; str):
+    def sendPostRequest(self, phoneNo: str, textMessage: str):
         """
         This function sends a REST API call to the SMS4INDIA Api to send a message to the phone number provided
         """
